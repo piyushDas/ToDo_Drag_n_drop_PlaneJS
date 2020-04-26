@@ -1,0 +1,18 @@
+@import './variables';
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  background-color: $container-bg;
+  font-family: Verdana, sans-serif;
+}
